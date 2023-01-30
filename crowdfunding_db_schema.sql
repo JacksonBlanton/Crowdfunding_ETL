@@ -20,7 +20,7 @@ CREATE TABLE "campaign" (
 
 CREATE TABLE "contacts" (
     "contact_id" INT   NOT NULL,
-    "fist_name" VARCHAR(30) NOT NULL,
+    "first_name" VARCHAR(30) NOT NULL,
     "last_name" VARCHAR(30) NOT NULL,
     "email" VARCHAR(30) NOT NULL,
     CONSTRAINT "pk_contact" PRIMARY KEY (
